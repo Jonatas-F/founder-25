@@ -1,0 +1,51 @@
+/* ==========================================================================
+   SAGA Pass | Founder 25 — Design Tokens
+   ========================================================================== */
+
+:root {
+  /* --- Surfaces ------------------------------------------------------- */
+  --bg-base: #000000;
+  --bg-elevated: #0e0e10;
+  --bg-card: #141417;
+  --bg-overlay: rgba(0, 0, 0, 0.55);
+
+  /* --- Text ----------------------------------------------------------- */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.78);
+  --text-muted: rgba(255, 255, 255, 0.6);
+  --text-faint: rgba(255, 255, 255, 0.38);
+
+  /* --- Brand accent (laranja-fogo SAGA) ------------------------------ */
+  --accent: #ff5a1f;
+  --accent-deep: #e64715;
+  --accent-soft: #ff7a45;
+  --accent-glow: rgba(255, 90, 31, 0.4);
+  --accent-glow-strong: rgba(255, 90, 31, 0.6);
+  --ring-soft: rgba(255, 90, 31, 0.18);
+  --ring-strong: rgba(255, 90, 31, 0.45);
+
+  /* --- Borders -------------------------------------------------------- */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-soft: rgba(255, 255, 255, 0.14);
+  --border-accent: rgba(255, 90, 31, 0.55);
+
+  /* --- Typography ----------------------------------------------------- */
+  --font-display: "Archivo Black", "Geist Variable", system-ui, sans-serif;
+  --font-body: "Geist Variable", system-ui, -apple-system, sans-serif;
+
+  /* --- Radius --------------------------------------------------------- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* --- Easings -------------------------------------------------------- */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+
+  /* --- Shadows -------------------------------------------------------- */
+  --shadow-glow: 0 0 60px var(--accent-glow);
+  --shadow-card: 0 24px 60px rgba(0, 0, 0, 0.5);
+
+  color-scheme: dark;
+}
