@@ -141,9 +141,18 @@ export default function SagaIA() {
 
           <p className="mt-5 text-sm text-white/55 leading-relaxed">
             O objetivo é claro: levar você do{" "}
-            <span className="text-white">ponto A</span> ao{" "}
-            <span className="text-[var(--accent)]">ponto B</span> formando o melhor
-            profissional possível. Tudo o que ajuda nessa jornada está incluído.
+            <span className="font-display text-xl md:text-2xl text-white tracking-tight">
+              ponto A
+            </span>{" "}
+            ao{" "}
+            <span
+              className="font-display text-xl md:text-2xl text-[var(--accent)] tracking-tight"
+              style={{ textShadow: "0 0 20px var(--accent-glow)" }}
+            >
+              ponto B
+            </span>{" "}
+            formando o melhor profissional possível. Tudo o que ajuda nessa jornada está
+            incluído.
           </p>
         </motion.div>
       </div>

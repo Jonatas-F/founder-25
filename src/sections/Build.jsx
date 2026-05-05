@@ -123,8 +123,18 @@ export default function Build() {
             Logo na ativação fazemos um <span className="text-white font-semibold">levantamento de perfil</span> —
             conhecimentos prévios, objetivo profissional, referências e preferências. A
             partir daí, a SAGA monta dentro de uma rede ampla de seasons, cursos e
-            mentorias o caminho recomendado do <span className="text-white">ponto A</span> ao
-            <span className="text-[var(--accent)]"> ponto B</span> que você quer alcançar.
+            mentorias o caminho recomendado do{" "}
+            <span className="font-display text-2xl md:text-3xl text-white tracking-tight">
+              ponto A
+            </span>{" "}
+            ao{" "}
+            <span
+              className="font-display text-2xl md:text-3xl text-[var(--accent)] tracking-tight"
+              style={{ textShadow: "0 0 24px var(--accent-glow)" }}
+            >
+              ponto B
+            </span>{" "}
+            que você quer alcançar.
           </motion.p>
         </motion.div>
 
