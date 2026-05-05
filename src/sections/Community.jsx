@@ -45,7 +45,7 @@ export default function Community() {
             variants={fadeUp}
             className="mt-6 font-display text-[clamp(2.2rem,5.5vw,4.4rem)] leading-[1.02] tracking-tight"
           >
-            Você nunca está <span className="text-[var(--accent)]">sozinho</span> na build.
+            Você não está <span className="text-[var(--accent)]">sozinho</span> na comunidade.
           </motion.h2>
           <motion.p
             variants={fadeUp}
